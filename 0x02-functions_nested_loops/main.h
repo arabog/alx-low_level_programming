@@ -1,3 +1,4 @@
+#ifndef _main_h_
 #define _main_h_
 /*
  * This contains function protototypes
@@ -5,3 +6,5 @@
  *
  */
 int _putchar(char);
+
+#endif
