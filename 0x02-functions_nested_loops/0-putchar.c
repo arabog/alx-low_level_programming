@@ -1,4 +1,4 @@
-#include "headerfile.h"
+#include "main.h"
 /*
  * main - print _putchar as a message
  *
@@ -14,6 +14,6 @@ for (inte = 0; inte  < sz; inte++)
 {
 _putchar(val[inte]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
