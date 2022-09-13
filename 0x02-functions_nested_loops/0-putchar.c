@@ -1,11 +1,18 @@
-#include <stdio.h>
+#include "headerfile.h"
+/*
+ * main - print _putchar as a message
+ *
+ * Return: Always 0 (Success)
+ *
+ */
 int main(void)
 {
-char val[8] = "_putchar";
-int i;
-for (i = 0; i < 8; i++)
+int  val[] = {95, 113, 117, 116, 99, 104, 97, 114};
+int inte, sz;
+sz = sizeof(val) / sizeof(int);
+for (inte = 0; inte  < sz; inte++)
 {
-putchar(val[i]);
+_putchar(val[inte]);
 }
 putchar('\n');
 return (0);
