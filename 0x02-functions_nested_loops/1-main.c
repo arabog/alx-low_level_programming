@@ -5,5 +5,6 @@
  * These are use to test the functions
  *
  */
-int _putchar(char);
+void print_alphabet(void);
 #endif
+
