@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int  val[] = {95, 113, 117, 116, 99, 104, 97, 114};
+int  val[] = {95, 112, 117, 116, 99, 104, 97, 114};
 int inte, sz;
 sz = sizeof(val) / sizeof(int);
 for (inte = 0; inte  < sz; inte++)
