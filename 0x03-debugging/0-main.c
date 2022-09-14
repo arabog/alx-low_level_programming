@@ -11,9 +11,6 @@ if (i > 48)
 {
 positive_or_negative(i);
 }
-else
-{
-positive_or_negative(i);
-}
+
 return (0);
 }
