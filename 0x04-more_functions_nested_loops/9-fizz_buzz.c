@@ -12,7 +12,7 @@ int main(void)
 int i, num;
 num = 100;
 
-for (i = 2; i <= num; i++)
+for (i = 1; i <= num; i++)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
 {
