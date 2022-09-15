@@ -6,14 +6,11 @@
 
 void print_numbers(void)
 {
-int val[] = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57};
-int i, s;
+int num;
 
-s = sizeof(val) / sizeof(int);
-
-for (i = 0; i <= s; i++)
+for (num = 48; num <= 57; num++)
 {
-_putchar(val[i]);
+_putchar(num);
 }
 
 _putchar('\n');
