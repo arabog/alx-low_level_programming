@@ -11,6 +11,7 @@ int main(void)
 int i, num;
 num = 100;
 
+
 for (i = 1; i <= num; i++)
 {
 if (i % 15 == 0)
@@ -30,8 +31,8 @@ else
 printf(" %d\n", i);
 }
 
-
 }
-putchar('\n');
+
+printf("\n");
 return (0);
 }
