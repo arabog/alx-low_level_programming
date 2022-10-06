@@ -16,9 +16,11 @@ int w;
 int h;
 
 h = 0;
+
 while (h < height)
 {
 w = 0;
+
 while (w < width)
 {
 printf("%d ", grid[h][w]);
@@ -51,7 +53,10 @@ printf("\n");
 
 grid[0][3] = 98;
 grid[3][4] = 402;
+
 print_grid(grid, 6, 4);
+free_grid(grid, 4);
 
 return (0);
 }
+
