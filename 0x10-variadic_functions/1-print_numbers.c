@@ -15,7 +15,7 @@ unsigned int i;
 
 va_start(valist, n);
 
-printf("%i\n", n);
+/*printf("%i\n", n);*/
 
 
 for (i = 0; i < n; i++)
