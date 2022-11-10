@@ -20,5 +20,6 @@ return (-1);
 m = 1 << index;
 *n = (*n / m);
 
+
 return (1);
 }
