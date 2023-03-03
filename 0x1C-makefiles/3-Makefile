@@ -4,8 +4,8 @@
 #variables
 
 CC = gcc
-SRC = school.c main.c 
-OBJ =  $(patsubst %.c,%.o,$(SRC))
+SRC = school.c main.c
+OBJ = $(patsubst %.c,%.o,$(SRC))
 NAME = school
 RM = rm -f
 
@@ -17,7 +17,7 @@ all: $(OBJ)
 
 #clean emacs and VI temp files along executable
 clean:
-	$(RM) *.swp *~$(NAME)
+	$(RM) *.swp *~ $(NAME)
 
 #clean object files
 oclean:
